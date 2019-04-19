@@ -26,6 +26,7 @@ feature extraction also involves using MFCC
 features to identify sentiments in speech [2].
 
 III. RESEARCH QUESTIONS
+
 There are three primary questions we are looking
 to address in this project:
 1. We want to understand which features play an
