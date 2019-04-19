@@ -1,3 +1,42 @@
+Pre-built usage:
+
+1. Replace paths in the <mark>Project_main.py</mark> with your own local machine path.
+
+2. Load video files by using local video path or mp4 urls in <mark>Project_main.py</mark>.
+
+3. Run the Project_main.py and generate the srt file.
+
+Note : Run the video file along with the srt file (VLC recommended).
+
+
+
+Current Progress results:
+
+Check the <mark>Test</mark> folder.
+
+
+
+
+In Progress :
+
+1. Prebuilt models for code codensation.
+
+2. API support.
+
+3. CNN for extracting emotions through images from videos.
+
+4. Markov models for combining results.
+
+Dependencies:
+
+ffpmpeg
+
+scikit-learn
+
+keras
+
+
+
 I. INTRODUCTION
 
 Many companies use sentiment analysis to
