@@ -9,12 +9,18 @@ Pre-built usage:
 Note : Run the video file along with the srt file (VLC recommended).
 
 
+<br>
+<br>
+
+
+
 
 Current Progress results:
 
 Check the <mark>Test</mark> folder.
 
-
+<br>
+<br>
 
 
 In Progress :
@@ -27,6 +33,9 @@ In Progress :
 
 4. Markov models for combining results.
 
+<br>
+<br>
+
 Dependencies:
 
 ffpmpeg
@@ -35,7 +44,8 @@ scikit-learn
 
 keras
 
-
+<br>
+<br>
 
 I. INTRODUCTION
 
@@ -53,6 +63,8 @@ project: sentiment analysis on text generated from
 speech, sentiment analysis on speech signal and
 detection of emotions based on both.
 
+<br>
+
 II. RELATED WORK
 
 There have been several studies related to
@@ -63,6 +75,8 @@ features such Pitch, Energy, MFCC to analyze
 sentiments [1]. Fakhri Karray et al. study on
 feature extraction also involves using MFCC
 features to identify sentiments in speech [2].
+
+<br>
 
 III. RESEARCH QUESTIONS
 
@@ -86,6 +100,8 @@ sentiment analysis result can be combined to
 provide better result than each used
 independently.
 
+<br>
+
 IV. METHODOLOGY
 
 This project identifies the emotion of users
@@ -105,6 +121,8 @@ is broken into frames. Each frame will produce a
 particular emotion from part 1 and part 2. A
 voting algorithm will pick the highest occurring
 sentiment and the sentiment is analyzed.
+
+<br>
 
 A. DATA
 
@@ -178,6 +196,8 @@ data. We are evaluating our model on a
 subjective understanding on the emotion of
 that data.
 
+<br>
+
 B. MODELS
 
 Given an audio file we first break it into 30
@@ -244,6 +264,8 @@ conflicting, the emotion with higher priority
 is selected, otherwise, it is taken as the final
 emotion for that bit.
 
+<br>
+
 V. RESULTS
 
 For extracting emotion from text, the model was
@@ -268,6 +290,8 @@ Network.
 For the final results, we used longer videos and
 divided into 10 seconds bits. The result from both these were combined using the priority
 algorithm, which produced satisfactory results.
+
+<br>
 
 VI. DISCUSSION
 
@@ -296,6 +320,8 @@ significant for emotions in speech and isolation
 of those can play a major role in improving the
 accuracy of emotion recognition.
 
+<br>
+
 VII. CONCLUSION
 
 In conclusion, we have made a successful
@@ -309,6 +335,8 @@ system, using this method which we attempted
 can be very useful for lot of companies to analyze
 the responses of their customers over calls or
 other feedbacks.
+
+<br>
 
 VIII. REFERENCES
 
